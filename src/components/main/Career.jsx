@@ -1,26 +1,16 @@
 import React from "react";
 import aboutIcon from "../../assets/img/about.jpg"
 import Header from "../Header";
-import { titleHead } from "../../constant";
 import Heading from "../shared/Heading";
+import { useNavigate } from "react-router-dom";
 
-const Career = (props) => {
-  // const {titleHead} = props;
+function Career() {
+  const navigate =  useNavigate()
   return (
     <>
       <Header />
       <section id="career" className="bg-gray-200 py-14">
         <div className="px-3 mx-auto max-w-7xl">
-          {/* <div className="pb-5 text-left">
-            <h5
-              className="inline-block text-gray-500 text-sm font-medium font-sans tracking-widest py-1 uppercase after:content-[''] after:inline-block after:h-px after:w-32 after:bg-gray-700 after:my-1 after:mx-2">
-              {titleHead?.careerTitle}
-            </h5>
-            <h3 className="text-2xl font-extrabold text-black uppercase md:text-3xl"
-              style={{ fontFamily: "'Raleway', sans-serif" }}>
-                {titleHead?.careerSubTitle}
-            </h3>
-          </div> */}
           <Heading titleList = {["careerTitle","careerSubTitle"]}/>
           <div className="grid gap-3 sm:grid-cols-2 md:grid-cols-3 lg:gap-5">
             <div className="h-full p-3 mb-5 text-base text-left text-gray-500 bg-white rounded shadow-lg group lg:p-5">
@@ -54,9 +44,9 @@ const Career = (props) => {
                 </div>
                 <div className="flex items-center justify-between gap-3">
                   <h3 className="text-lg font-semibold group-hover:text-gray-600">$500<small>/Hour</small></h3>
-                  <a href="#"
+                  <button onClick={() => navigate("/career")}
                     className="px-3 py-2 text-base font-bold tracking-wide text-white uppercase bg-gray-600 rounded hover:bg-gray-800 ">Apply
-                    Now</a>
+                    Now</button>
                 </div>
               </div>
             </div>
@@ -91,9 +81,9 @@ const Career = (props) => {
                 </div>
                 <div className="flex items-center justify-between gap-3">
                   <h3 className="text-lg font-semibold group-hover:text-gray-600">$500<small>/Hour</small></h3>
-                  <a href="#"
+                  <button onClick={() => navigate("/career")}
                     className="px-3 py-2 text-base font-bold tracking-wide text-white uppercase bg-gray-600 rounded hover:bg-gray-800 ">Apply
-                    Now</a>
+                    Now</button>
                 </div>
               </div>
             </div>
@@ -128,9 +118,9 @@ const Career = (props) => {
                 </div>
                 <div className="flex items-center justify-between gap-3">
                   <h3 className="text-lg font-semibold group-hover:text-gray-600">$500<small>/Hour</small></h3>
-                  <a href="#"
+                  <button onClick={() => navigate("/career")}
                     className="px-3 py-2 text-base font-bold tracking-wide text-white uppercase bg-gray-600 rounded hover:bg-gray-800 ">Apply
-                    Now</a>
+                    Now</button>
                 </div>
               </div>
             </div>
@@ -165,9 +155,9 @@ const Career = (props) => {
                 </div>
                 <div className="flex items-center justify-between gap-3">
                   <h3 className="text-lg font-semibold group-hover:text-gray-600">$500<small>/Hour</small></h3>
-                  <a href="#"
+                  <button onClick={() => navigate("/career")}
                     className="px-3 py-2 text-base font-bold tracking-wide text-white uppercase bg-gray-600 rounded hover:bg-gray-800 ">Apply
-                    Now</a>
+                    Now</button>
                 </div>
               </div>
             </div>
@@ -202,9 +192,9 @@ const Career = (props) => {
                 </div>
                 <div className="flex items-center justify-between gap-3">
                   <h3 className="text-lg font-semibold group-hover:text-gray-600">$500<small>/Hour</small></h3>
-                  <a href="#"
+                  <button onClick={() => navigate("/career")}
                     className="px-3 py-2 text-base font-bold tracking-wide text-white uppercase bg-gray-600 rounded hover:bg-gray-800 ">Apply
-                    Now</a>
+                    Now</button>
                 </div>
               </div>
             </div>

@@ -2,15 +2,17 @@ import './App.css';
 import { BrowserRouter, Routes, Route, } from 'react-router-dom';
 import Banner from './components/Banner';
 import Header from './components/Header';
-import About from './components/main/About';
+
 import Home from './components/Home';
 import Service from './components/main/Service';
-import Career from './components/main/Career';
 import Contact from './components/main/Contact';
 import Footer from './components/Footer';
 import Notfound from './components/Notfound';
 import Portfolios from './components/main/Portfolios';
 import Blogs from './components/main/Blogs';
+import Calculator from './components/main/Calculator';
+import About from './components/main/About';
+import Career from './components/main/Career';
 
 function App() {
   return (
@@ -29,6 +31,7 @@ function App() {
           <Route path='/portfolio' element={<Portfolios />} />
           <Route path='/footer' element={<Footer />} />
           <Route path='*' element={<Notfound />} />
+          <Route path='/calculator' element={<Calculator/>}/>
         </Routes>
       </BrowserRouter>
     </div>
