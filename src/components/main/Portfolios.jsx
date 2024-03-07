@@ -46,7 +46,7 @@ function Portfolio() {
                   <div
                     className="opacity-0 group-hover:opacity-100 absolute bottom-[-50px] group-hover:bottom-0 bg-gray-800 p-4 w-full text-white"
                     style={{ transition: "all ease-in-out 0.3s" }}>
-                    <h5 className="pb-1 text-lg font-bold">PeersTrack</h5>
+                    <h5 className="pb-1 text-lg font-bold">DemoTrack</h5>
                     <p className="text-sm text-gray-500 group-hover:text-white">Full stack development</p>
                   </div>
                 </div>
@@ -56,7 +56,7 @@ function Portfolio() {
                   <div
                     className="opacity-0 group-hover:opacity-100 absolute bottom-[-50px] group-hover:bottom-0 bg-gray-800 p-4 w-full text-white"
                     style={{ transition: "all ease-in-out 0.3s" }}>
-                    <h5 className="pb-1 text-lg font-bold">PeersTrack</h5>
+                    <h5 className="pb-1 text-lg font-bold">DemoTrack</h5>
                     <p className="text-sm text-gray-500 group-hover:text-white">Full stack development</p>
                   </div>
                 </div>
@@ -66,7 +66,7 @@ function Portfolio() {
                   <div
                     className="opacity-0 group-hover:opacity-100 absolute bottom-[-50px] group-hover:bottom-0 bg-gray-800 p-4 w-full text-white"
                     style={{ transition: "all ease-in-out 0.3s" }}>
-                    <h5 className="pb-1 text-lg font-bold">PeersTrack</h5>
+                    <h5 className="pb-1 text-lg font-bold">DemoTrack</h5>
                     <p className="text-sm text-gray-500 group-hover:text-white">Full stack development</p>
                   </div>
                 </div>
@@ -78,7 +78,7 @@ function Portfolio() {
                   <div
                     className="opacity-0 group-hover:opacity-100 absolute bottom-[-50px] group-hover:bottom-0 bg-gray-800 p-4 w-full text-white"
                     style={{ transition: "all ease-in-out 0.3s" }}>
-                    <h5 className="pb-1 text-lg font-bold">PeersTrack</h5>
+                    <h5 className="pb-1 text-lg font-bold">DemoTrack</h5>
                     <p className="text-sm text-gray-500 group-hover:text-white">Full stack development</p>
                   </div>
                 </div>
@@ -88,7 +88,7 @@ function Portfolio() {
                   <div
                     className="opacity-0 group-hover:opacity-100 absolute bottom-[-50px] group-hover:bottom-0 bg-gray-800 p-4 w-full text-white"
                     style={{ transition: "all ease-in-out 0.3s" }}>
-                    <h5 className="pb-1 text-lg font-bold">PeersTrack</h5>
+                    <h5 className="pb-1 text-lg font-bold">DemoTrack</h5>
                     <p className="text-sm text-gray-500 group-hover:text-white">Full stack development</p>
                   </div>
                 </div>
@@ -98,7 +98,7 @@ function Portfolio() {
                   <div
                     className="opacity-0 group-hover:opacity-100 absolute bottom-[-50px] group-hover:bottom-0 bg-gray-800 p-4 w-full text-white"
                     style={{ transition: "all ease-in-out 0.3s" }}>
-                    <h5 className="pb-1 text-lg font-bold">PeersTrack</h5>
+                    <h5 className="pb-1 text-lg font-bold">DemoTrack</h5>
                     <p className="text-sm text-gray-500 group-hover:text-white">Full stack development</p>
                   </div>
                 </div>
@@ -108,7 +108,7 @@ function Portfolio() {
                   <div
                     className="opacity-0 group-hover:opacity-100 absolute bottom-[-50px] group-hover:bottom-0 bg-gray-800 p-4 w-full text-white"
                     style={{ transition: "all ease-in-out 0.3s" }}>
-                    <h5 className="pb-1 text-lg font-bold">PeersTrack</h5>
+                    <h5 className="pb-1 text-lg font-bold">DemoTrack</h5>
                     <p className="text-sm text-gray-500 group-hover:text-white">Full stack development</p>
                   </div>
                 </div>
@@ -120,7 +120,7 @@ function Portfolio() {
                   <div
                     className="opacity-0 group-hover:opacity-100 absolute bottom-[-50px] group-hover:bottom-0 bg-gray-800 p-4 w-full text-white"
                     style={{ transition: "all ease-in-out 0.3s" }}>
-                    <h5 className="pb-1 text-lg font-bold">PeersTrack</h5>
+                    <h5 className="pb-1 text-lg font-bold">DemoTrack</h5>
                     <p className="text-sm text-gray-500 group-hover:text-white">Full stack development</p>
                   </div>
                 </div>
@@ -130,7 +130,7 @@ function Portfolio() {
                   <div
                     className="opacity-0 group-hover:opacity-100 absolute bottom-[-50px] group-hover:bottom-0 bg-gray-800 p-4 w-full text-white"
                     style={{ transition: "all ease-in-out 0.3s" }}>
-                    <h5 className="pb-1 text-lg font-bold">PeersTrack</h5>
+                    <h5 className="pb-1 text-lg font-bold">DemoTrack</h5>
                     <p className="text-sm text-gray-500 group-hover:text-white">Full stack development</p>
                   </div>
                 </div>
@@ -140,7 +140,7 @@ function Portfolio() {
                   <div
                     className="opacity-0 group-hover:opacity-100 absolute bottom-[-50px] group-hover:bottom-0 bg-gray-800 p-4 w-full text-white"
                     style={{ transition: "all ease-in-out 0.3s" }}>
-                    <h5 className="pb-1 text-lg font-bold">PeersTrack</h5>
+                    <h5 className="pb-1 text-lg font-bold">DemoTrack</h5>
                     <p className="text-sm text-gray-500 group-hover:text-white">Full stack development</p>
                   </div>
                 </div>
@@ -150,7 +150,7 @@ function Portfolio() {
                   <div
                     className="opacity-0 group-hover:opacity-100 absolute bottom-[-50px] group-hover:bottom-0 bg-gray-800 p-4 w-full text-white"
                     style={{ transition: "all ease-in-out 0.3s" }}>
-                    <h5 className="pb-1 text-lg font-bold">PeersTrack</h5>
+                    <h5 className="pb-1 text-lg font-bold">DemoTrack</h5>
                     <p className="text-sm text-gray-500 group-hover:text-white">Full stack development</p>
                   </div>
                 </div>

@@ -18,7 +18,7 @@ const Service = (props) => {
               <i className="text-4xl text-gray-400 fa-brands fa-dribbble group-hover:text-black "></i>
               <h3 className="py-2 text-lg font-bold" style={{ fontFamily: "'Raleway', sans-serif" }}>Software Development</h3>
               <p className="text-sm text-gray-500">
-                PeersTrack develops quality software and offers related services –
+                DemoTrack develops quality software and offers related services –
                 software consulting, cloud migration, app integration, and more.
               </p>
             </div>
@@ -30,7 +30,7 @@ const Service = (props) => {
               <i className="text-4xl text-gray-400 fa-brands fa-dribbble group-hover:text-black "></i>
               <h3 className="py-2 text-lg font-bold" style={{ fontFamily: "'Raleway', sans-serif" }}>Website Development</h3>
               <p className="text-sm text-gray-500">
-                PeersTrack's web developers help brands succeed in the ever-changing
+                DemoTrack's web developers help brands succeed in the ever-changing
                 digital landscape by creating customer-focused, customer-centric website
                 solutions.
               </p>
@@ -43,7 +43,7 @@ const Service = (props) => {
               <i className="text-4xl text-gray-400 fa-brands fa-dribbble group-hover:text-black "></i>
               <h3 className="py-2 text-lg font-bold" style={{ fontFamily: "'Raleway', sans-serif" }}>Full Stack Development</h3>
               <p className="text-sm text-gray-500">
-                Full-stack developers from PeersTrack are skilled in everything from the
+                Full-stack developers from DemoTrack are skilled in everything from the
                 concept and idea to the finished product.
               </p>
             </div>

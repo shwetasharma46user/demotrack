@@ -11,4 +11,6 @@ export const titleHead= {
   contactSubTitle: "Contact Us",
   blogTitle: "Blog",
   blogSubTitle: "Read our latest Blog",
+  todoTitle: "to do List",
+  todoSubTitle: "Find to do list here",
 };

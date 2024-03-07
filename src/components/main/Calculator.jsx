@@ -31,9 +31,9 @@ function Calculator() {
         id="counts"
         className="py-14 mt-14"
       >
-        <div className="w-1/4 mx-auto text-black bg-gray-100 border border-gray-300 rounded-lg">
+        <div className="w-2/4 mx-auto text-black bg-gray-100 border border-gray-300 rounded-lg md:w-1/4">
           <div className="w-full p-3">
-            <div className="h-16 overflowY-auto w-fit input ml-auto text-right">
+            <div className="h-16 ml-auto text-right overflowY-auto w-fit input">
               <h6 className="text-3xl font-bold">{destination}</h6>
               <h6 className="text-xl">{count}</h6>
             </div>

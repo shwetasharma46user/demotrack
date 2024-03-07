@@ -13,8 +13,12 @@ import Blogs from './components/main/Blogs';
 import Calculator from './components/main/Calculator';
 import About from './components/main/About';
 import Career from './components/main/Career';
+import TodoList from './components/main/ToDoList';
+import ToDoEdit from './components/main/ToDoEdit';
+import FormTodo from './components/main/FormTodo';
 
 function App() {
+  
   return (
     <div className="m-0 font-sans text-sm antialiased font-normal text-gray-500 bg-white App sm:text-base leading-default"
     style={{fontFamily: "'Manrope', sans-serif"}}>
@@ -32,6 +36,9 @@ function App() {
           <Route path='/footer' element={<Footer />} />
           <Route path='*' element={<Notfound />} />
           <Route path='/calculator' element={<Calculator/>}/>
+          <Route path='/todolist' element={<TodoList/>}/>
+          <Route path='/todoedit' element={<ToDoEdit />}/>
+          <Route path='/formtodo' element={<FormTodo />}/>
         </Routes>
       </BrowserRouter>
     </div>
