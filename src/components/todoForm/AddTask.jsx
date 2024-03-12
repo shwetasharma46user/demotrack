@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useNavigate } from 'react-router-dom';
+import { useNavigate } from "react-router-dom";
 
 function AddTask() {
   const [formData, setFormData] = useState([]);
@@ -8,13 +8,9 @@ function AddTask() {
     assignee: "",
     priority: "",
   });
-  const [editingId, setEditingId] = useState(null);
-  const [taskName, setTaskName] = useState("");
-  const [assigneeName, setAssigneeName] = useState("");
-  const [taskPriority, setTaskPriority] = useState("");
 
   const navigate = useNavigate();
-  
+
   const handleSubmit = (e) => {
     e.preventDefault();
     const newData = {
@@ -27,8 +23,16 @@ function AddTask() {
     console.log("ID", newData.id);
     setFormData([...formData, newData]);
     // setFormData(formData => [...formData, newData])
-    localStorage.setItem('formData', JSON.stringify(inputValues) )
-    
+    const previousData = JSON.parse(localStorage.getItem("formData"));
+    console.log("check", previousData);
+    previousData &&
+      localStorage.setItem(
+        "formData",
+        JSON.stringify([...previousData, newData])
+      );
+    !previousData &&
+      localStorage.setItem("formData", JSON.stringify([newData]));
+
     console.log("JSON Value", JSON.stringify(inputValues));
     console.log("JSON formData", JSON.stringify(formData));
     console.log("JSON newData", JSON.stringify(newData));
@@ -37,7 +41,7 @@ function AddTask() {
       assignee: "",
       priority: "",
     });
-    navigate('/ViewTask')
+    navigate("/ViewTask");
   };
 
   const handleInputChange = (e) => {
