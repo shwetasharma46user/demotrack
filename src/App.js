@@ -16,6 +16,8 @@ import Career from './components/main/Career';
 import TodoList from './components/main/ToDoList';
 import ToDoEdit from './components/main/ToDoEdit';
 import FormTodo from './components/main/FormTodo';
+import ViewTask from './components/todoForm/ViewTask';
+import AddTask from './components/todoForm/AddTask';
 
 function App() {
   
@@ -39,6 +41,8 @@ function App() {
           <Route path='/todolist' element={<TodoList/>}/>
           <Route path='/todoedit' element={<ToDoEdit />}/>
           <Route path='/formtodo' element={<FormTodo />}/>
+          <Route path='/viewTask' element={<ViewTask />}/>
+          <Route path='/addTask' element={<AddTask />}/>
         </Routes>
       </BrowserRouter>
     </div>
