@@ -18,6 +18,7 @@ import ToDoEdit from './components/main/ToDoEdit';
 import FormTodo from './components/main/FormTodo';
 import ViewTask from './components/todoForm/ViewTask';
 import AddTask from './components/todoForm/AddTask';
+import Login from './components/Login';
 
 function App() {
   
@@ -43,6 +44,7 @@ function App() {
           <Route path='/formtodo' element={<FormTodo />}/>
           <Route path='/viewTask' element={<ViewTask />}/>
           <Route path='/addTask' element={<AddTask />}/>
+          <Route path='/login' element={<Login />}/>
         </Routes>
       </BrowserRouter>
     </div>
